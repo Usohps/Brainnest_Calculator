@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="display">
+            <button id="clear">Cl</button>
+            <button id="delete">DEL</button>
+            <button class="keypad" onclick="keypads('%')">%</button>
+            <button onclick="keypads('/')" class="keypad">/</button>
+            <button onclick="keypads(7)" class="keypad">7</button>
+            <button onclick="keypads(8)" class="keypad">8</button>
+            <button onclick="keypads(9)" class="keypad">9</button>
+            <button onclick="keypads('*')" class="keypad">*</button>
+            <button onclick="keypads(4)" class="keypad">4</button>
+            <button onclick="keypads(5)" class="keypad">5</button>
+            <button onclick="keypads(6)" class="keypad">6</button>
+            <button onclick="keypads('-')" class="keypad">-</button>
+            <button onclick="keypads(1)" class="keypad">1</button>
+            <button onclick="keypads(2)" class="keypad">2</button>
+            <button onclick="keypads(3)" class="keypad">3</button>
+            <button onclick="keypads('+')" class="keypad" id="add">+</button>
+            <button onclick="keypads('.')" class="keypad">.</button>
+            <button onclick="keypads(0)" class="keypad">0</button>
+            <button id="Equalbtn">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
